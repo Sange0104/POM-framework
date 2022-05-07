@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="QueueModule(failed)">
+    <classes>
+      <class name="Testcases.Queue_PageFactory_TC">
+        <methods>
+          <include name="Queuemodule"/>
+          <include name="afterTest"/>
+          <include name="loginintoQueue" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Testcases.Queue_PageFactory_TC -->
+    </classes>
+  </test> <!-- QueueModule(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

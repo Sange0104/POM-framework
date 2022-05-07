@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 26 20:03:57 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14063 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Testcases.Queue_PageFactory_TC.Queuemodule()'><b>Queuemodule</b><br>Test class: Testcases.Queue_PageFactory_TC<br/>
+<a href="#Output-72749441" onClick='toggleBox("Output-72749441", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-72749441" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-72749441">
+You are logged into Queue module<br/>
+The Implementation Array page is displayed<br/>
+Alert OK button is selected using the Accept method successsfully<br/>
+The Queue Operations page is displayed<br/>
+The Implementation lists page is displayed<br/>
+The Implementation collections page is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Testcases.Queue_PageFactory_TC@7bab3f1a</td></tr>
+<tr>
+<td title='Testcases.Queue_PageFactory_TC.loginintoQueue()'><b>loginintoQueue</b><br>Test class: Testcases.Queue_PageFactory_TC<br>Parameters: Automat123, te5t@u5er<br/>
+<a href="#Output-463730412" onClick='toggleBox("Output-463730412", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-463730412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-463730412">
+You are not logged in<br/>
+Taken the Screenshot successfully<br/>
+You are logged in Numpy Ninja home page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Testcases.Queue_PageFactory_TC@7bab3f1a</td></tr>
+</table><p>
+</body>
+</html>

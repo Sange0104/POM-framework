@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Testcases.Queue_PageFactory_TC">
+        <methods>
+          <include name="Queuemodule"/>
+          <include name="afterTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testcases.Queue_PageFactory_TC -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="Testcases.Queue_PageFactory_TC">
+        <methods>
+          <include name="Queuemodule"/>
+          <include name="afterTest"/>
+          <include name="setup"/>
+          <include name="loginintoQueue" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testcases.Queue_PageFactory_TC -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
