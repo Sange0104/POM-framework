@@ -1,6 +1,7 @@
 package Queue;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -19,9 +20,10 @@ import org.testng.annotations.Test;
 
 import Utils.DataUtils;
 import Utils.XLUtility;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class queueOperations {
-	WebDriver driver = null;
+	WebDriver driver =null;
 
   @Test(dataProviderClass = DataUtils.class,dataProvider = "LoginData")
   public void QueueOPeration(String uName,String pWord) throws InterruptedException {
@@ -83,10 +85,12 @@ public class queueOperations {
 	  
   @BeforeTest
   public void beforeTest() {
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ranjith\\chromedriver\\chromedriver.exe");
-	  driver = new ChromeDriver();
+	 // System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ranjith\\chromedriver\\chromedriver.exe");
+	  WebDriverManager.chromedriver().setup();
+	   driver = new ChromeDriver();
 	  driver.get("http://dsportalapp.herokuapp.com/");
 	  driver.manage().window().maximize();
+	  driver.manage().timeouts().implicitlyWait(10,(TimeUnit.SECONDS));
   }
 
   @AfterTest

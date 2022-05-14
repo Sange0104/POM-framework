@@ -27,8 +27,7 @@ public class implementationLists extends logintoQueue{
 	  Thread.sleep(3000);
 	 
 	  driver.navigate().refresh();
-	  driver.navigate().back();
-	  driver.navigate().forward();
+	  
 	//Enter invalid python code
 	  driver.findElement(By.xpath("//form[@id='answer_form']/div/div/div/textarea")).sendKeys("rtef';");
 	  Thread.sleep(3000);

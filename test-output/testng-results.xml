@@ -1,78 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[You are not logged in]]>
-    </line>
-    <line>
       <![CDATA[Taken the Screenshot successfully]]>
     </line>
     <line>
       <![CDATA[You are logged in Numpy Ninja home page]]>
     </line>
     <line>
-      <![CDATA[You are logged into Queue module]]>
-    </line>
-    <line>
-      <![CDATA[The Implementation Array page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[Alert OK button is selected using the Accept method successsfully]]>
-    </line>
-    <line>
-      <![CDATA[The Queue Operations page is displayed]]>
+      <![CDATA[You are logged into Queue page]]>
     </line>
     <line>
       <![CDATA[The Implementation lists page is displayed]]>
     </line>
     <line>
-      <![CDATA[The Implementation collections page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[You are not logged in]]>
-    </line>
-    <line>
-      <![CDATA[Taken the Screenshot successfully]]>
-    </line>
-    <line>
-      <![CDATA[You are logged in Numpy Ninja home page]]>
-    </line>
-    <line>
-      <![CDATA[You are logged into Queue module]]>
-    </line>
-    <line>
-      <![CDATA[The Implementation Array page is displayed]]>
-    </line>
-    <line>
       <![CDATA[Alert OK button is selected using the Accept method successsfully]]>
-    </line>
-    <line>
-      <![CDATA[The Queue Operations page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[The Implementation lists page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[The Implementation collections page is displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-04-27T00:03:57Z" name="TestSuite" finished-at="2022-04-27T00:04:26Z" duration-ms="28944">
+  <suite started-at="2022-05-14T00:19:30Z" name="Default suite" finished-at="2022-05-14T00:19:55Z" duration-ms="24665">
     <groups>
     </groups>
-    <test started-at="2022-04-27T00:03:57Z" name="ChromeTest" finished-at="2022-04-27T00:04:11Z" duration-ms="14063">
-      <class name="Testcases.Queue_PageFactory_TC">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Queue_PageFactory_TC@7bab3f1a]" started-at="2022-04-27T00:03:57Z" name="setup" finished-at="2022-04-27T00:04:03Z" duration-ms="6653" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-05-14T00:19:30Z" name="Default test" finished-at="2022-05-14T00:19:55Z" duration-ms="24665">
+      <class name="Queue.implementationLists">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Queue.implementationLists@4b79ac84]" started-at="2022-05-14T00:19:30Z" name="beforeTest" finished-at="2022-05-14T00:19:34Z" duration-ms="3502" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginintoQueue(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Queue_PageFactory_TC@7bab3f1a]" started-at="2022-04-27T00:04:04Z" name="loginintoQueue" data-provider="LoginData" finished-at="2022-04-27T00:04:06Z" duration-ms="1893" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="loginQueue(java.lang.String, java.lang.String)[pri:1, instance:Queue.implementationLists@4b79ac84]" started-at="2022-05-14T00:19:34Z" name="loginQueue" data-provider="LoginData" finished-at="2022-05-14T00:19:36Z" duration-ms="2169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,161 +41,31 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[You are not logged in]]>
-            </line>
-            <line>
               <![CDATA[Taken the Screenshot successfully]]>
             </line>
             <line>
               <![CDATA[You are logged in Numpy Ninja home page]]>
             </line>
+            <line>
+              <![CDATA[You are logged into Queue page]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- loginintoQueue -->
-        <test-method signature="Queuemodule()[pri:0, instance:Testcases.Queue_PageFactory_TC@7bab3f1a]" started-at="2022-04-27T00:04:06Z" name="Queuemodule" finished-at="2022-04-27T00:04:10Z" duration-ms="4398" status="PASS">
+        </test-method> <!-- loginQueue -->
+        <test-method signature="implementlists()[pri:2, instance:Queue.implementationLists@4b79ac84]" started-at="2022-05-14T00:19:36Z" name="implementlists" finished-at="2022-05-14T00:19:54Z" duration-ms="18064" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[You are logged into Queue module]]>
-            </line>
-            <line>
-              <![CDATA[The Implementation Array page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[Alert OK button is selected using the Accept method successsfully]]>
-            </line>
-            <line>
-              <![CDATA[The Queue Operations page is displayed]]>
-            </line>
             <line>
               <![CDATA[The Implementation lists page is displayed]]>
             </line>
             <line>
-              <![CDATA[The Implementation collections page is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Queuemodule -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Testcases.Queue_PageFactory_TC@7bab3f1a]" started-at="2022-04-27T00:04:10Z" name="afterTest" finished-at="2022-04-27T00:04:11Z" duration-ms="422" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- Testcases.Queue_PageFactory_TC -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2022-04-27T00:03:57Z" name="FirefoxTest" finished-at="2022-04-27T00:04:26Z" duration-ms="28943">
-      <class name="Testcases.Queue_PageFactory_TC">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Queue_PageFactory_TC@272113c4]" started-at="2022-04-27T00:03:57Z" name="setup" finished-at="2022-04-27T00:04:11Z" duration-ms="14636" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginintoQueue(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Queue_PageFactory_TC@272113c4]" started-at="2022-04-27T00:04:11Z" name="loginintoQueue" data-provider="LoginData" finished-at="2022-04-27T00:04:14Z" duration-ms="2362" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Automat123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[te5t@u5er]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[You are not logged in]]>
-            </line>
-            <line>
-              <![CDATA[Taken the Screenshot successfully]]>
-            </line>
-            <line>
-              <![CDATA[You are logged in Numpy Ninja home page]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- loginintoQueue -->
-        <test-method signature="Queuemodule()[pri:0, instance:Testcases.Queue_PageFactory_TC@272113c4]" started-at="2022-04-27T00:04:14Z" name="Queuemodule" finished-at="2022-04-27T00:04:24Z" duration-ms="9794" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[You are logged into Queue module]]>
-            </line>
-            <line>
-              <![CDATA[The Implementation Array page is displayed]]>
-            </line>
-            <line>
               <![CDATA[Alert OK button is selected using the Accept method successsfully]]>
             </line>
-            <line>
-              <![CDATA[The Queue Operations page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[The Implementation lists page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[The Implementation collections page is displayed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- Queuemodule -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Testcases.Queue_PageFactory_TC@272113c4]" started-at="2022-04-27T00:04:24Z" name="afterTest" finished-at="2022-04-27T00:04:26Z" duration-ms="2004" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-SEFJLQC', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17432, moz:profile: C:\Users\Ranjith\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 28fb4ba6-2e1a-4f05-9f9d-0cbf08fe66a7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-SEFJLQC', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17432, moz:profile: C:\Users\Ranjith\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 28fb4ba6-2e1a-4f05-9f9d-0cbf08fe66a7
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-at Testcases.Queue_PageFactory_TC.afterTest(Queue_PageFactory_TC.java:73)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.afterRun(TestRunner.java:725)
-at org.testng.TestRunner.run(TestRunner.java:509)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        </test-method> <!-- implementlists -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Queue.implementationLists@4b79ac84]" started-at="2022-05-14T00:19:54Z" name="afterTest" finished-at="2022-05-14T00:19:55Z" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- Testcases.Queue_PageFactory_TC -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- TestSuite -->
+      </class> <!-- Queue.implementationLists -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
